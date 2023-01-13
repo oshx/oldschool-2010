@@ -1,0 +1,28 @@
+{
+  "name": "oldschool-2010",
+  "version": "0.0.1",
+  "description": "Old School-styled from 2010",
+  "main": "./docs/index.html",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oshx/oldschool-2010.git"
+  },
+  "keywords": [
+    "OldSchool",
+    "jQuery",
+    "Legacy"
+  ],
+  "author": "OSHx <oshxios@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oshx/oldschool-2010/issues"
+  },
+  "homepage": "https://oshx.github.com/oldschool-2010/"
+}
