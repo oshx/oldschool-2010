@@ -1,3 +1,3 @@
-;(function application($){
-  'use strict';
-})(jQuery);
+import $ from 'jquery';
+
+console.log('jQuery', $);

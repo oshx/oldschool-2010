@@ -8,7 +8,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "null"
+    "build": "webpack ./src/main.js --output-path ./docs"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/oshx/oldschool-2010/issues"
   },
-  "homepage": "https://oshx.github.com/oldschool-2010/"
+  "homepage": "https://oshx.github.com/oldschool-2010/",
+  "dependencies": {
+    "jquery": "^1.12.4",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
 }
