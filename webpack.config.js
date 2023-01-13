@@ -8,6 +8,7 @@ var path = require('path'),
 module.exports = {
   entry: './src/main.js',
   output: {
+    publicPath: '/oldschool-2010/',
     path: join(__dirname, './docs'),
     filename: 'main.min.js'
   },
