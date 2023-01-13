@@ -4,7 +4,7 @@ import attachPlugIn from './plugins/attach-plugin';
 
 console.log('jQuery', $)
 
-attachPlugIn
+attachPlugIn($);
 
 var $screen = $('#screen'),
   $signUp = ($screen.signUp = $pick('sign_up')),
